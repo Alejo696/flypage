@@ -293,6 +293,24 @@
 
 <a href="https://wa.me/573204532808?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 
+<audio id="miMusica" loop controls autoplay>
+    <source src="music/m123.mp3" type="audio/mpeg">
+    Tu navegador no soporta la reproducción de audio.
+  </audio>
 
+  <!-- Opcional: Un script para intentar reproducir en cuanto el usuario haga clic en cualquier parte -->
+  <script>
+    document.addEventListener('click', function() {
+      const audio = document.getElementById('miMusica');
+      audio.play();
+    }, { once: true }); // Se ejecuta solo con el primer clic
+  </script>
+
+
+
+
+
+
+    
 </body>
 </html>
